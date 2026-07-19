@@ -1,156 +1,43 @@
-body {
-  margin: 0;
-  padding: 0;
-  background-color: rgb(58, 0, 112); /* عشان تضمن إن الشاشة كلها بنفسجي بالكامل */
-  min-height: 100vh;
-
+body{
+    background-color: blueviolet;
 }
-  
 .welcome{
+    text-align: center;
     background-color: brown;
-    text-align:center;
-    color: aliceblue;
-    
-    
     
 }
 .logo img{
-    width: 100px;
-    border: 5px solid ;
-    
-    
-}
-.logo{
-    margin:0 0 0 81% ;
-    
-}
-.container{
-    background-color: rgb(58, 0, 112);
-    position: relative;
-    padding: 0 0 0 0;
-    
-}
-.my-social img{
-    width: 30px;
-    padding: 0%;
-    
-    
+    width: 200px;
+    height: 400px;
+    left: 85%;
+    position: absolute;
+    border:10px solid black ;
+    border-radius: 60%;
 }
 .my-social{
-    background-color: black;
-    color: #ffffff;
-    padding: 0 0 0 0;
-    margin: 0%;
-    position:absolute;
-    bottom: 10%;
+    color: aliceblue;
+    position: relative;
     width: fit-content;
-    height: fit-content;
-    left: 10px;
-    
+    background-color: black;
+    left: 1%;
+}
+.my-social img{
+    width: 40px;
+    background-color: black;
 }
 .contact{
-    color: white;
-    left: 10px;
-    position: absolute;
-    width: fit-content;
-    height: fit-content;
-    background-color: blue;
-}
-.look{
-    
-              /* بيخلي لون الخط أبيض */
-  padding: 10px 20px;       /* مسافة حلوة جوه الزرار عشان شكله يبقى شيك */
-  text-decoration: none;    /* لو هو لينك <a> السطر ده بيشيل الخط اللي تحت الكلام */
-  border: none;             /* بيشيل أي إطار افتراضي للزرار */
-  display: inline-block;    /* عشان يقبل الـ padding والـ margin صح */
-  font-weight: bold;        /* يخلي الخط عريض وواضح */
-  position: absolute;
-  left: 40%;               /* يزق الزرار لنص الشاشة من الشمال */
-  bottom: 80px;
-  color: white;       /* دي هتخلي لون كلمة شوف مشاريعي أبيض سادة */
-
-  
+    position: relative;
+     left: 1%;
+     background-color: blue;
+     width: fit-content;
+     color: aliceblue;
 }
 .look button{
-    color: white;       /* دي هتخلي لون كلمة شوف مشاريعي أبيض سادة */
-    background: black;  /* دي بتضمن إن الخلفية كلها سوداء وميبقاش في حواف بيضاء */
-}
-=======
-body {
-  margin: 0;
-  padding: 0;
-  background-color: rgb(58, 0, 112); /* عشان تضمن إن الشاشة كلها بنفسجي بالكامل */
-  min-height: 100vh;
-
-}
-  
-.welcome{
-    background-color: brown;
-    text-align:center;
+    position:absolute ;
+    text-align: center;
+    left: 45%;
+    padding: 10px 15px;
+    background-color: blue;
     color: aliceblue;
     
-    
-    
 }
-.logo img{
-    width: 100px;
-    border: 5px solid ;
-    
-    
-}
-.logo{
-    margin:0 0 0 81% ;
-    
-}
-.container{
-    background-color: rgb(58, 0, 112);
-    position: relative;
-    padding: 0 0 0 0;
-    
-}
-.my-social img{
-    width: 30px;
-    padding: 0%;
-    
-    
-}
-.my-social{
-    background-color: black;
-    color: #ffffff;
-    padding: 0 0 0 0;
-    margin: 0%;
-    position:absolute;
-    bottom: 10%;
-    width: fit-content;
-    height: fit-content;
-    left: 10px;
-    
-}
-.contact{
-    color: white;
-    left: 10px;
-    position: absolute;
-    width: fit-content;
-    height: fit-content;
-    background-color: blue;
-}
-.look{
-    
-              /* بيخلي لون الخط أبيض */
-  padding: 10px 20px;       /* مسافة حلوة جوه الزرار عشان شكله يبقى شيك */
-  text-decoration: none;    /* لو هو لينك <a> السطر ده بيشيل الخط اللي تحت الكلام */
-  border: none;             /* بيشيل أي إطار افتراضي للزرار */
-  display: inline-block;    /* عشان يقبل الـ padding والـ margin صح */
-  font-weight: bold;        /* يخلي الخط عريض وواضح */
-  position: absolute;
-  left: 40%;               /* يزق الزرار لنص الشاشة من الشمال */
-  bottom: 80px;
-  color: white;       /* دي هتخلي لون كلمة شوف مشاريعي أبيض سادة */
-
-  
-}
-.look button{
-    color: white;       /* دي هتخلي لون كلمة شوف مشاريعي أبيض سادة */
-    background: black;  /* دي بتضمن إن الخلفية كلها سوداء وميبقاش في حواف بيضاء */
-}
->>>>>>> 651e229e40c01985cc6d5267c1cd4fc43048b50f
